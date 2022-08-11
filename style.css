@@ -68,12 +68,8 @@ main .container p {
 }
 
 .container .image-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  align-items: flex-end;
-  height: 150px;
-  width: 100%;
+  align-self: flex-end;
+  margin-top: 50px;
 }
 
 main .container img {
